@@ -1,0 +1,20 @@
+package variableAndDataType;
+
+public class SecondClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        //Age=32
+		//Name=Rohit
+		//Marital Status=True
+		//Height=5.9
+		//Gender=M
+		
+		int age =32;
+		string name="Rohit";
+		boolean maritalStatus=true;
+			double height=5.9;
+		char gender='M';
+	}
+
+}
