@@ -1,0 +1,28 @@
+package conditionalStatement;
+
+public class LogicalOperator2And {
+// Class name & interface name always start with capital letters
+	// Your Package name,function name,variable name always start with small letters
+	// java is case sensitive letter
+	//Before excution you must remove your compile time errors
+	// you must save your code before execution
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//IIT and MHCET
+		//60>= int 12th, 60>= 10th
+		
+		int 12th=60;
+		int 10th=59;
+		
+		if (12th>=60 && 10th>=60)
+		{System.out.println("yor are eligible");
+		
+		}else
+			System.out.println("You are not eligible");
+			
+		}
+	}
+
+}

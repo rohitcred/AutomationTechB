@@ -1,0 +1,19 @@
+package functions;
+
+public class Functions2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="Rohit";
+
+	PrintName(name);
+	
+	
+	}
+
+	public static void PrintName(String name) {
+		System.out.println("Your Name is "+name);
+		
+
+}
+}

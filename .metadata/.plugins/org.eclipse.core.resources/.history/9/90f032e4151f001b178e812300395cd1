@@ -1,0 +1,24 @@
+package functions;
+
+public class Functions3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// IIT JEE>=40, CET>=60
+		// You are eligible
+		// you are not eligible
+
+		eligibility(30, 60);
+
+	}
+
+	public static void eligibility(int iit, int cet) {
+
+		if (iit >= 40 || cet >= 60) {
+			System.out.println("You are eligible");
+		} else {
+			System.out.println("You are not eligible");
+		}
+
+	}
+}

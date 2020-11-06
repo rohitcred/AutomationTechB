@@ -1,0 +1,18 @@
+package functions;
+
+public class Functions2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+
+	}
+	public static void PrintName()
+	{
+		System.out.println("Your Name is Rohit");
+		System.out.println("Your Name is Anand");
+		System.out.println("Your Name is Mohit");
+		System.out.println("Your Name is Ashish");
+	}
+
+}
