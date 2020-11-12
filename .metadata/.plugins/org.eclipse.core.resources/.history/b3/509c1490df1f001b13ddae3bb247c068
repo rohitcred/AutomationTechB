@@ -1,0 +1,22 @@
+package constructor;
+
+//not static variable defined at class level are known as instance variable
+
+public class Car {
+	String Colour;
+	String model;
+	int engine;
+	
+	//static variable defined at class level are know as class variable
+	
+	static int wheels=4;
+	
+	public void features() {
+		//variable defined in a functions are known as local variable
+		int a=10;
+		
+		System.out.println("Car features colour:"+Colour+", model:"+model+" and engine size:"+engine+", wheels="+wheels);
+	
+	}
+
+}

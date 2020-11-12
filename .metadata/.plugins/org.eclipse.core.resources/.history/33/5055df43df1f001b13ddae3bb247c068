@@ -1,0 +1,21 @@
+package constructor;
+
+public class user {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Car.wheels=40;
+		
+		Car kia = new Car();
+		kia.Colour="Silver";
+		kia.engine= 1200;
+		kia.model="Seltos";
+		kia.wheels=5;
+		
+		
+		kia.features();
+
+	}
+
+}

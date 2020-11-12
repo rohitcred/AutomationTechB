@@ -1,0 +1,52 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
+
+public class ListInterface {
+
+	public static void main(String[] args) {
+
+		// ArrayList: Default size is 10, once we reach the maximum, it will expand by
+		// 50%
+		// Javatpoint: Table of differences arraylist & linked list
+
+		List<String> list = new ArrayList<>();
+
+		list.add("Rohit");
+		list.add("Yogesh");
+		list.add("Rozina");
+
+		for (String s : list) {
+			System.out.println(s);
+		}
+
+		System.out.println("****************************");
+
+		list = new LinkedList<>();
+
+		list.add("Rohit");
+		list.add("Yogesh");
+		list.add("Rozina");
+
+		for (String s : list) {
+			System.out.println(s);
+		}
+
+		System.out.println("****************************");
+
+		list = new Vector<>();
+
+		list.add("Rohit");
+		list.add("Yogesh");
+		list.add("Rozina");
+
+		for (String s : list) {
+			System.out.println(s);
+		}
+
+	}
+
+}

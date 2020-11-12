@@ -15,7 +15,7 @@ public class Script {
 				ref2.protectedFunction();
 				ref2.publicfunction();
 				ref2.noAccessModifier();
-				ref2.p
+				
 	
 
 	}

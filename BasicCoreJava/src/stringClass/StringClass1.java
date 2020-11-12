@@ -1,0 +1,32 @@
+package stringClass;
+
+public class StringClass1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name="anand";
+		
+		//Function 1
+		 
+		System.out.println(name.length());
+		
+		//Function 2
+		System.out.println(name.charAt(2));
+		
+		//Function 3
+		
+		String name2="Anand";
+		System.out.println(name.equals(name2));
+		System.out.println(name.equalsIgnoreCase(name2));
+		 
+		//Function 5
+		System.out.println(name.replace("a","1"));
+		
+		// Function 6
+		
+		
+
+	}
+
+}

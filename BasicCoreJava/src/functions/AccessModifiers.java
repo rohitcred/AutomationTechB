@@ -18,7 +18,7 @@ public class AccessModifiers {
 	void noAccessModifier() {
 		System.out.println("No Access Modifier");
 	}
-
+//Protected member can be access through out the project using the child class
 	protected void protectedFunction() {
 		System.out.println("Protected Function");
 	}
